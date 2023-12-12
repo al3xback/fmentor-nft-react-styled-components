@@ -23,7 +23,7 @@ const CardShell = styled.article`
 		position: relative;
 		margin-bottom: 1.5em;
 		background-color: hsl(215, 51%, 70%);
-		border-radius: 0.5em;
+		border-radius: 8px;
 		cursor: pointer;
 	}
 
