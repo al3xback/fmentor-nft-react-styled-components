@@ -8,8 +8,8 @@ const CardShell = styled.article`
 	width: 100%;
 	max-width: 21.875em;
 	padding: 1.5em;
-	margin: 2.5em 0 3.75em;
 	background-color: hsl(216, 50%, 16%);
+	margin: 2.5em 0 3.75em;
 	border-radius: 15px;
 	box-shadow: 0 1.5625em 3.125em rgba(0, 0, 0, 0.1);
 
@@ -22,8 +22,8 @@ const CardShell = styled.article`
 
 	& .card__image {
 		position: relative;
-		margin-bottom: 1.5em;
 		background-color: hsl(215, 51%, 70%);
+		margin-bottom: 1.5em;
 		border-radius: 8px;
 		cursor: pointer;
 	}
@@ -32,14 +32,13 @@ const CardShell = styled.article`
 		content: '';
 		position: absolute;
 		inset: 0;
-		margin: auto;
 		background-color: hsla(178, 100%, 50%, 0.5);
 		background-image: url(${viewImage});
 		background-repeat: no-repeat;
 		background-position: center;
 		border-radius: inherit;
-		transition: opacity 0.3s;
 		opacity: 0;
+		transition: opacity 0.3s;
 	}
 
 	& .card__image:hover::before {
