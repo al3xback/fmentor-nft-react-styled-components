@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import equilibriumImage from '../../assets/images/equilibrium.jpg';
 import avatarImage from '../../assets/images/avatar.png';
+import viewImage from '../../assets/images/icons/view.svg';
 
 const CardShell = styled.article`
 	width: 100%;
@@ -33,7 +34,7 @@ const CardShell = styled.article`
 		inset: 0;
 		margin: auto;
 		background-color: hsla(178, 100%, 50%, 0.5);
-		background-image: url('../../assets/images/icons/view.svg');
+		background-image: url(${viewImage});
 		background-repeat: no-repeat;
 		background-position: center;
 		border-radius: inherit;
