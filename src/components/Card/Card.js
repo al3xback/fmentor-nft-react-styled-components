@@ -9,7 +9,7 @@ const CardShell = styled.article`
 	max-width: 21.875em;
 	padding: 1.5em;
 	background-color: hsl(216, 50%, 16%);
-	margin: 2.5em 0 3.75em;
+	margin: 1.875em 0 3.75em;
 	border-radius: 15px;
 	box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
 
@@ -129,7 +129,12 @@ const Card = () => {
 	return (
 		<CardShell>
 			<div className="card__image">
-				<img width="302" height="302" src={equilibriumImage} alt="Equilibrium" />
+				<img
+					width="302"
+					height="302"
+					src={equilibriumImage}
+					alt="Equilibrium"
+				/>
 			</div>
 			<div className="card__content">
 				<h2 className="card__title">
