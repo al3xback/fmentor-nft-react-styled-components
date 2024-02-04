@@ -11,7 +11,7 @@ const CardShell = styled.article`
 	background-color: hsl(216, 50%, 16%);
 	margin: 2.5em 0 3.75em;
 	border-radius: 15px;
-	box-shadow: 0 1.5625em 3.125em rgba(0, 0, 0, 0.1);
+	box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
 
 	&,
 	& .card__image,
