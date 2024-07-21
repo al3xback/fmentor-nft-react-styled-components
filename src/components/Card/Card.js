@@ -56,7 +56,7 @@ const CardShell = styled.article`
 	}
 
 	& .card__desc {
-		margin-bottom: 0.89em;
+		margin-bottom: 1.125em;
 	}
 
 	& .card__stats-list {
@@ -112,6 +112,7 @@ const CardShell = styled.article`
 
 		& .card__desc {
 			margin-bottom: 1.33em;
+			font-size: 1.125em;
 		}
 
 		& .card__stats-list-item,
