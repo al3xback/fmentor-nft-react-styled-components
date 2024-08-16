@@ -28,7 +28,7 @@ const CardShell = styled.article`
 		cursor: pointer;
 	}
 
-	& .card__image::before {
+	& .card__image::after {
 		content: '';
 		position: absolute;
 		inset: 0;
@@ -41,7 +41,7 @@ const CardShell = styled.article`
 		transition: opacity 0.3s;
 	}
 
-	& .card__image:hover::before {
+	& .card__image:hover::after {
 		opacity: 1;
 	}
 
